@@ -1,0 +1,27 @@
+{
+  "name": "sms-reg",
+  "description": "SMS-REG.com API 2.0",
+  "version": "0.0.0",
+  "keywords": [
+    "activation",
+    "account registration",
+    "sms registration",
+    "vitrual number"
+  ],
+  "homepage": "https://github.com/tsypa/sms-reg#readme",
+    "bugs": {
+    "url": "https://github.com/tsypa/sms-reg/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Maxim Tsyplakov",
+    "email": "maxim.tsyplakov@gmail.com",
+    "url":"http://tsx64.blogspot.com"
+  } ,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsypa/sms-reg.git"
+  },
+  "engines": {"node": ">=5.1.0"}
+}

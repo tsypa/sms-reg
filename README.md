@@ -17,6 +17,6 @@ smsreg.getNum('all', 'mailru')
   .then(num => {...})
   .catch(err => {...})
 
-e.t.c., You can use all of SMS-REG API 2.0 methods in this manner
+// e.t.c., You can use all of SMS-REG API 2.0 methods in this manner
 
 ```

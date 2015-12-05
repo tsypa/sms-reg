@@ -106,14 +106,10 @@ class SmsReg {
         res.on('end', () => {
           try {
             let o = JSON.parse(data);
-            // trick for getOptions result when no tz found
-            if (o['0'] && Object.keys(o).length === 1 && typeof o === 'object') {
-              o = o['0'];
-            }
             if (!o.response === void 0) {
               reject(`Unexpected response ${data}`);
             }
-            if (['0', 'ERROR'].includes(o.response)) {
+            if (o.response === 'ERROR') {
               reject(o.error_msg);
             }
             resolve(o);
